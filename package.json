@@ -1,0 +1,27 @@
+{
+  "name": "test_srv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "sequelize": "^6.37.7",
+    "sequelize-auto": "^0.8.8",
+    "tedious": "^18.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "sequelize-auto-migrations": "^1.0.3",
+    "sequelize-cli": "^6.6.3"
+  }
+}
