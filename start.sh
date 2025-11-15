@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-REPO_URL="https://github.com/YOUR_USERNAME/YOUR_REPO.git"
+REPO_URL="https://github.com/psotis/test.git"
 
 # If this is the first run → clone repo into /app
 if [ ! -d "/app/.git" ]; then
